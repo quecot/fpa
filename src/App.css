@@ -44,6 +44,10 @@ section > p {
   gap: 3rem;
 }
 
+.face-button > button:hover {
+  background-color: var(--background-color);
+}
+
 .icon {
   margin-top: 3rem;
   font-size: 3rem;
