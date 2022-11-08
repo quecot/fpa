@@ -21,6 +21,7 @@ section {
   place-items: center;
   align-content: center;
   min-height: 101vh;
+  padding: 2rem;
 }
 
 section > h1 {
