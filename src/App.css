@@ -10,7 +10,7 @@ section {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 100vh;
+  min-height: 101vh;
 }
 
 section > h1 {
@@ -43,4 +43,23 @@ section > h2:hover,
 section > p:hover,
 .icon:hover {
   color: greenyellow;
+}
+
+.section-hidden {
+  opacity: 0;
+  transition: all 1.5s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.section-shown {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0%);
+}
+
+@media(prefers-reduced-motion) {
+  .section-hidden {
+    transition: none;
+  }
 }
