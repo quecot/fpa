@@ -78,8 +78,8 @@ section > p {
 
 .card-container {
   position: relative;
-  width: 25vh;
-  height: 25vh;
+  width: 13vw;
+  height: 13vw;
   cursor: pointer;
 }
 
