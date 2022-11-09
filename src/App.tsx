@@ -67,49 +67,49 @@ const App = () => {
         <div className="wave-dark-red" />
         <h2 className="section-hidden pt-[8rem]">Tu coneixes els vuit principis de la didàctica? Jo els he après avui!</h2>
         <div className="section-hidden card-container pt-8 flex flex-wrap gap-6 justify-center">
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               1
             </div>
             <div className="card-back" />
           </div>
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               2
             </div>
             <div className="card-back" />
           </div>
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               3
             </div>
             <div className="card-back" />
           </div>
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               4
             </div>
             <div className="card-back" />
           </div>
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               5
             </div>
             <div className="card-back" />
           </div>
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               6
             </div>
             <div className="card-back" />
           </div>
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               7
             </div>
             <div className="card-back" />
           </div>
-          <div className="card">
+          <div className="card section-hidden">
             <div className="card-front">
               8
             </div>
