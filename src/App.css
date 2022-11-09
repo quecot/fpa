@@ -89,25 +89,12 @@ section > p {
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .card:hover {
   transform: rotateY(180deg);
 }
-
-/* .card {
-  padding: 3rem;
-  aspect-ratio: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-  background-color: white;
-  box-shadow: 0 0 15px rgb(0,0,0,0.1);
-  border-radius: 5px;
-  perspective: 500px;
-} */
 
 .card-front {
   position: absolute;
