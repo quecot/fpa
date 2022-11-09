@@ -20,12 +20,12 @@ const App = () => {
   return (
     <div className="App">
       <section className="blue">
-        <h1 className="section-hidden">Hola, món!</h1>
-        <p className="section-hidden">Això és una prova</p>
+        <h1 className="section-hidden pt-[8rem]">Hola, món!</h1>
+        <p className="section-hidden pb-[4rem]">Això és una prova</p>
 
       </section>
       <section className="pink">
-        <h2 className="section-hidden pt-[4rem] px-[2rem]">La Formació de persones adultes és un tema moolt important perquè...</h2>
+        <h2 className="section-hidden pt-[8rem]">La Formació de persones adultes és un tema moolt important perquè...</h2>
         <p className="section-hidden">
           <b>Persones</b>
           {' '}
@@ -51,8 +51,8 @@ const App = () => {
           </svg>
         </div>
       </section>
-      <section className="dark h-[600px]">
-        <h2 className="section-hidden pt-[4rem] px-[2rem]">Què et sembla el format d&apos;aquest material?</h2>
+      <section className="dark">
+        <h2 className="section-hidden pt-[8rem]">Què et sembla el format d&apos;aquest material?</h2>
         <p className="section-hidden">Creus que pot funcionar?</p>
         <div className="face-button section-hidden">
           <button type="button" className="face-button">
@@ -62,80 +62,64 @@ const App = () => {
             <i className="icon fa-solid fa-smile rotate-180" />
           </button>
         </div>
-        <div className="wave-dark-red" />
       </section>
       <section className="red">
-        <h2 className="section-hidden">Tu coneixes els vuit principis de la didàctica? Jo els he après avui!</h2>
+        <div className="wave-dark-red" />
+        <h2 className="section-hidden pt-[8rem]">Tu coneixes els vuit principis de la didàctica? Jo els he après avui!</h2>
         <div className="section-hidden card-container pt-8 flex flex-wrap gap-6 justify-center">
           <div className="card">
             <div className="card-front">
               1
             </div>
-            <div className="card-back">
-              Comunicació
-            </div>
+            <div className="card-back" />
           </div>
           <div className="card">
             <div className="card-front">
               2
             </div>
-            <div className="card-back">
-              Activitat
-            </div>
+            <div className="card-back" />
           </div>
           <div className="card">
             <div className="card-front">
               3
             </div>
-            <div className="card-back">
-              Individualització
-            </div>
+            <div className="card-back" />
           </div>
           <div className="card">
             <div className="card-front">
               4
             </div>
-            <div className="card-back">
-              Socialització
-            </div>
+            <div className="card-back" />
           </div>
           <div className="card">
             <div className="card-front">
               5
             </div>
-            <div className="card-back">
-              Globalització
-            </div>
+            <div className="card-back" />
           </div>
           <div className="card">
             <div className="card-front">
               6
             </div>
-            <div className="card-back">
-              Creativitat
-            </div>
+            <div className="card-back" />
           </div>
           <div className="card">
             <div className="card-front">
               7
             </div>
-            <div className="card-back">
-              Intuïció
-            </div>
+            <div className="card-back" />
           </div>
           <div className="card">
             <div className="card-front">
               8
             </div>
-            <div className="card-back">
-              Apertura
-            </div>
+            <div className="card-back" />
           </div>
         </div>
         <div className="" />
       </section>
       <section className="blue">
-        <h2 className="pt-[4rem] section-hidden">I... fins aquí la prova</h2>
+        <h2 className="pt-[8rem] section-hidden">I... fins aquí la prova</h2>
         <p className="section-hidden">Give me feedback!</p>
         <div className="section-hidden">
           <i className="icon fa-solid fa-smile animate-spin" />

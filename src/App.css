@@ -125,7 +125,7 @@ section > p {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 187px;
+  height: 5vh;
 }
 
 .wave .shape-fill {
@@ -134,19 +134,19 @@ section > p {
 
 .triangle {
   position: absolute;
-  bottom: -52px;
+  bottom: -5vh;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  z-index: 10;
+  z-index: 1;
 }
 
 .triangle svg {
   position: relative;
   display: block;
   width: calc(103% + 1.3px);
-  height: 52px;
+  height: 5vh;
 }
 
 .triangle .shape-fill {
@@ -160,8 +160,8 @@ section > p {
   background-position: center;
   background-size: cover;
   position: absolute;
-  top: 450px;
-  background-image: url('./assets/layer1.svg');
+  top: 0px;
+  background-image: url('./assets/dark-red.svg');
 }
 
 .wave-red-blue {
@@ -172,7 +172,7 @@ section > p {
   background-size: cover;
   position: absolute;
   top: 0px;
-  background-image: url('./assets/layer2.svg');
+  background-image: url('./assets/red-blue.svg');
 }
 
 .section-hidden {
