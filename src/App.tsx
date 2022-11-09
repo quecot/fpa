@@ -65,7 +65,7 @@ const App = () => {
       </section>
       <section className="red">
         <div className="wave-dark-red" />
-        <h2 className="section-hidden pt-[8rem]">Tu coneixes els vuit principis de la didàctica? Jo els he après avui!</h2>
+        <h2 className="section-hidden pt-[12rem]">Tu coneixes els vuit principis de la didàctica? Jo els he après avui!</h2>
         <div className="section-hidden pt-8 flex flex-wrap gap-6 justify-center">
           <div className="card-container section-hidden">
             <div className="card">
