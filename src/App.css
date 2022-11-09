@@ -78,8 +78,8 @@ section > p {
 
 .card-container {
   position: relative;
-  width: 20vh;
-  height: 20vh;
+  width: 25vh;
+  height: 25vh;
   cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ section > p {
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .card:hover {
