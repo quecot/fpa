@@ -2,7 +2,6 @@
 
 :root {
   --white: rgb(244, 244, 244);
-  --background-dark: rgb(230, 230, 230);
   --blue: rgb(60, 49, 221);
   --red: #dd3f31;
   --pink: rgb(255, 0, 102);
@@ -16,6 +15,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: var(--blue);
   padding: 0px;
   margin: 0px;
 }
