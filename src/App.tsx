@@ -66,57 +66,88 @@ const App = () => {
       <section className="red">
         <div className="wave-dark-red" />
         <h2 className="section-hidden pt-[8rem]">Tu coneixes els vuit principis de la didàctica? Jo els he après avui!</h2>
-        <div className="section-hidden card-container pt-8 flex flex-wrap gap-6 justify-center">
-          <div className="card section-hidden">
-            <div className="card-front">
-              1
+        <div className="section-hidden pt-8 flex flex-wrap gap-6 justify-center">
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                1
+              </div>
+              <div className="card-back">
+                Comunicació
+              </div>
             </div>
-            <div className="card-back" />
           </div>
-          <div className="card section-hidden">
-            <div className="card-front">
-              2
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                2
+              </div>
+              <div className="card-back">
+                Activitat
+              </div>
             </div>
-            <div className="card-back" />
           </div>
-          <div className="card section-hidden">
-            <div className="card-front">
-              3
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                3
+              </div>
+              <div className="card-back">
+                Individualització
+              </div>
             </div>
-            <div className="card-back" />
           </div>
-          <div className="card section-hidden">
-            <div className="card-front">
-              4
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                4
+              </div>
+              <div className="card-back">
+                Socialització
+              </div>
             </div>
-            <div className="card-back" />
           </div>
-          <div className="card section-hidden">
-            <div className="card-front">
-              5
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                5
+              </div>
+              <div className="card-back">
+                Globalització
+              </div>
             </div>
-            <div className="card-back" />
           </div>
-          <div className="card section-hidden">
-            <div className="card-front">
-              6
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                6
+              </div>
+              <div className="card-back">
+                Creativitat
+              </div>
             </div>
-            <div className="card-back" />
           </div>
-          <div className="card section-hidden">
-            <div className="card-front">
-              7
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                7
+              </div>
+              <div className="card-back">
+                Intuïció
+              </div>
             </div>
-            <div className="card-back" />
           </div>
-          <div className="card section-hidden">
-            <div className="card-front">
-              8
+          <div className="card-container section-hidden">
+            <div className="card">
+              <div className="card-front">
+                8
+              </div>
+              <div className="card-back">
+                Apertura
+              </div>
             </div>
-            <div className="card-back" />
           </div>
         </div>
-        <div className="" />
       </section>
       <section className="blue">
         <h2 className="pt-[8rem] section-hidden">I... fins aquí la prova</h2>
