@@ -1,27 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&display=swap');
 
 :root {
-  --background-color: rgb(244, 244, 244);
-  --text-color: rgb(12, 12, 40);
+  --white: rgb(244, 244, 244);
+  --background-dark: rgb(230, 230, 230);
+  --blue: rgb(60, 49, 221);
+  --red: #dd3f31;
+  --pink: rgb(255, 0, 102);
+  --dark: #0c0c28;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--background-color);
   padding: 0px;
   margin: 0px;
 }
 
 h1, h2, p, i {
-  color: var(--text-color);
+  color: var(--white);
+  z-index: 10;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.pink {
+  background-color: var(--pink);
+}
+
+.dark {
+  background-color: var(--dark);
 }
 
 section {
-  display: grid;
-  place-items: center;
-  align-content: center;
-  min-height: 101vh;
-  padding: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
 }
 
 section > h1 {
@@ -44,20 +70,109 @@ section > p {
   gap: 3rem;
 }
 
-.face-button > button:hover {
-  background-color: var(--background-color);
-}
-
 .icon {
   margin-top: 3rem;
   font-size: 3rem;
 }
 
-section > h1:hover,
-section > h2:hover,
-section > p:hover,
-.icon:hover {
-  color: greenyellow;
+.card {
+  padding: 3rem;
+  width: 20%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: white;
+  box-shadow: 0 0 15px rgb(0,0,0,0.1);
+  border-radius: 5px;
+  perspective: 500px;
+  cursor: pointer;
+}
+
+.card:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.card:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.card:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.card:nth-child(6) {
+  transition-delay: 200ms;
+}
+.card:nth-child(7) {
+  transition-delay: 400ms;
+}
+.card:nth-child(8) {
+  transition-delay: 600ms;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 187px;
+}
+
+.wave .shape-fill {
+  fill: var(--blue);
+}
+
+.triangle {
+  position: absolute;
+  bottom: -52px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 10;
+}
+
+.triangle svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 52px;
+}
+
+.triangle .shape-fill {
+  fill: var(--pink);
+}
+
+.wave-dark-red {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 450px;
+  background-image: url('./assets/layer1.svg');
+}
+
+.wave-red-blue {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  background-image: url('./assets/layer2.svg');
 }
 
 .section-hidden {

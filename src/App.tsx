@@ -7,8 +7,6 @@ const App = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('section-shown');
-        } else {
-          entry.target.classList.remove('section-shown');
         }
       });
     });
@@ -21,13 +19,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <section className="section-hidden">
-        <h1>Hola, món!</h1>
-        <p>Això és una prova</p>
+      <section className="blue">
+        <h1 className="section-hidden">Hola, món!</h1>
+        <p className="section-hidden">Això és una prova</p>
+
       </section>
-      <section className="section-hidden">
-        <h2>La Formació de persones adultes és un tema moolt important perquè...</h2>
-        <p>
+      <section className="pink">
+        <h2 className="section-hidden pt-[4rem] px-[2rem]">La Formació de persones adultes és un tema moolt important perquè...</h2>
+        <p className="section-hidden">
           <b>Persones</b>
           {' '}
           som tots i totes,
@@ -40,25 +39,108 @@ const App = () => {
           {' '}
           és a tot arreu
         </p>
-      </section>
-      <section className="section-hidden">
-        <h2>Què et sembla el format d&apos;aquest material?</h2>
-        <p>Creus que pot funcionar?</p>
-        <div className="face-button">
-          <button type="button" className="face-button">
-            <i className="icon fa-solid fa-smile text-green-600" />
-          </button>
-          <button type="button" className="face-button">
-            <i className="icon fa-solid fa-smile rotate-180 text-blue-600" />
-          </button>
+        <div className="triangle">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" className="shape-fill" />
+          </svg>
+        </div>
+        <div className="wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            {/* eslint-disable-next-line max-len */}
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill" />
+          </svg>
         </div>
       </section>
-      <section className="section-hidden">
-        <h2>Fins aquí la prova</h2>
-        <p>Give me feedback!</p>
-        <div>
+      <section className="dark h-[600px]">
+        <h2 className="section-hidden pt-[4rem] px-[2rem]">Què et sembla el format d&apos;aquest material?</h2>
+        <p className="section-hidden">Creus que pot funcionar?</p>
+        <div className="face-button section-hidden">
+          <button type="button" className="face-button">
+            <i className="icon fa-solid fa-smile" />
+          </button>
+          <button type="button" className="face-button">
+            <i className="icon fa-solid fa-smile rotate-180" />
+          </button>
+        </div>
+        <div className="wave-dark-red" />
+      </section>
+      <section className="red">
+        <h2 className="section-hidden">Tu coneixes els vuit principis de la didàctica? Jo els he après avui!</h2>
+        <div className="section-hidden card-container pt-8 flex flex-wrap gap-6 justify-center">
+          <div className="card">
+            <div className="card-front">
+              1
+            </div>
+            <div className="card-back">
+              Comunicació
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-front">
+              2
+            </div>
+            <div className="card-back">
+              Activitat
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-front">
+              3
+            </div>
+            <div className="card-back">
+              Individualització
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-front">
+              4
+            </div>
+            <div className="card-back">
+              Socialització
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-front">
+              5
+            </div>
+            <div className="card-back">
+              Globalització
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-front">
+              6
+            </div>
+            <div className="card-back">
+              Creativitat
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-front">
+              7
+            </div>
+            <div className="card-back">
+              Intuïció
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-front">
+              8
+            </div>
+            <div className="card-back">
+              Apertura
+            </div>
+          </div>
+        </div>
+        <div className="" />
+      </section>
+      <section className="blue">
+        <h2 className="pt-[4rem] section-hidden">I... fins aquí la prova</h2>
+        <p className="section-hidden">Give me feedback!</p>
+        <div className="section-hidden">
           <i className="icon fa-solid fa-smile animate-spin" />
         </div>
+        <div className="wave-red-blue" />
       </section>
     </div>
   );
